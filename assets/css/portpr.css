@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;                        
+}
+body {
+    /* body */
+    color: rgb(158, 29, 197);
+    font-family: Helvetica, Arial, sans-serif;
+}
+/* header and nav */
+header {
+    padding: 50px 55px;
+    background-color:rgb(158, 29, 197);
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 46px;
+    color: white;
+    margin: 0;
+    display: inline;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+/* apply styles to nav */
+header nav { 
+    float: right;
+    margin: 7px 0px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 32px;
+}
+
+.flamingos {
+    padding-left: 60px;
+    padding-right: 40px;
+    width: 99%;
+    height: 500px;
+}
+.about {
+    font-size: 55px;
+    padding-left: 20%;
+    padding-top: 30px;
+}
+
+.runbuddyy {
+    width: 27%;
+    height: 340px;
+    padding-left: 10%;
+}
+
+.aboutmetxt {
+    padding-left: 45%;
+    padding-right: 45px;
+    font-size: 28px;
+    color: black;
+    border-left: 3px black;
+}
+
+.mywork {
+    font-size: 55px;
+    padding-left: 20%;
+    
+    
+}
+
+.Run-Buddy-Button {
+    background-image: url("/assets/images/run-buddy-hero-image.jpg");
+    background-size: contain;
+    width: 49%;
+    height: 400px;
+    margin-left: 45%;
+    cursor: pointer;
+    border: none;
+    color: yellow;
+    font-size: 55px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    
+}
+.flex-direction {
+    display: flexbox;
+}
+.flex-direction-col2 {
+    display:flexbox;
+}
+.Robot-Gladiator-Button {
+    background-image: url("/assets/images/robototomato.jpg");
+    background-size: auto;
+    height: 200px;
+    width: 25%;
+    margin-left: 45%;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    color:rgb(158, 29, 197);
+    font-size: 39px;
+    display: inline-block;
+}
+
+.Secret-Forest-Button {
+    background-image: url("/assets/images/frontgate.jpg");
+    background-size: cover;
+    height: 200px;
+    width: 25%;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 37px;
+    display: inline-block;
+}
+footer {
+    text-decoration: none;
+}
+.flex-container2 {
+    display: flex;
+}
+h4 {
+    font-size: 33px;
+    color:rgb(158, 29, 197);
+    padding-left: 330px;
+    font-size: 65px;
+    padding-bottom: 40px;
+}
+.linkedin {
+    font-size: 34px;
+    color:rgb(158, 29, 197);
+    padding-left: 9%;
+    list-style-type: none;
+    text-decoration: none;
+    padding-top: 17px;
+}
+.github {
+    color:rgb(158, 29, 197);
+    font-size: 34px;
+    padding-left: 10%;
+    list-style-type: none;
+    text-decoration: none;
+    padding-top: 17px;
+}
+.email {
+    font-size: 34px;
+    color:rgb(158, 29, 197);
+    padding-left: 7%;
+    list-style-type: none;
+    text-decoration: none;
+    padding-top: 17px;
+}
